@@ -33,4 +33,9 @@ gridCellsArr.forEach(function (cell) {
 		cell.classList.add("painted");
 	})
 });
+gridCellsArr.forEach(function (cell) {
+	cell.addEventListener("ontouchstart", function () {
+		cell.classList.add("painted");
+	})
+});
 

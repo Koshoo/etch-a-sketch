@@ -40,7 +40,7 @@ function createGrid(gridSize) {
 
 resetButton.addEventListener("click", function () {
 	let size = prompt("How many squares? (for 16*16 type 16) from 1 to 100");
-	if(size ===null){
+	if (size === null) {
 		return;
 	}
 	while (size < 1 || size > 100) {
@@ -53,7 +53,7 @@ randomButton.addEventListener("click", function () {
 	randomizeColor();
 });
 
-blackButton.addEventListener("click", function() {
+blackButton.addEventListener("click", function () {
 	blackColor();
 });
 
@@ -77,7 +77,7 @@ function clearCell(cell) {
 	cell.style.backgroundColor = "white";
 }
 
-function blackColor(){
+function blackColor() {
 	gridCells = document.getElementsByClassName('grid-cell');
 	gridCellsArr = Array.from(gridCells);
 	gridCellsArr.forEach(function (cell) {
@@ -87,11 +87,3 @@ function blackColor(){
 		});
 	});
 }
-
-
-
-
-
-
-
-

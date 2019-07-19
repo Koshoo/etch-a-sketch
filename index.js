@@ -1,12 +1,14 @@
 const resetButton = document.getElementById("reset-btn");
 const randomButton = document.getElementById("random-btn");
 const blackButton = document.getElementById("black-btn");
+
+let gridContainer = document.querySelector('.grid-container');
+let gridCells = document.getElementsByClassName('grid-cell');
+let gridCellsArr = Array.from(gridCells);
+
 createGrid(16);
 
 function createGrid(gridSize) {
-	let gridContainer = document.querySelector('.grid-container');
-	let gridCells = document.getElementsByClassName('grid-cell');
-	let gridCellsArr = Array.from(gridCells);
 
 	//clearing gridContainer if its not clear, before creating a new one.
 	while (gridContainer.firstChild) {

@@ -1,0 +1,22 @@
+{
+  "name": "etch-a-sketch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koshoo/etch-a-sketch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koshoo/etch-a-sketch/issues"
+  },
+  "homepage": "https://github.com/Koshoo/etch-a-sketch#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
